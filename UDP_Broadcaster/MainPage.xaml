@@ -9,26 +9,26 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="628" Width="1112">
 
     <Grid>
-        <TextBox x:Name="Txt_PortNo" HorizontalAlignment="Left" Margin="110,38,0,0" TextWrapping="Wrap" Text="50000" VerticalAlignment="Top" Width="201"/>
-        <TextBox x:Name="Txt_AddIP" HorizontalAlignment="Left" Margin="110,75,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="201"/>
+        <TextBox x:Name="Txt_PortNo" HorizontalAlignment="Left" Margin="110,38,0,0" TextWrapping="Wrap" Text="50000" VerticalAlignment="Top" Width="201" Foreground="#FF13FF00"/>
+        <TextBox x:Name="Txt_AddIP" HorizontalAlignment="Left" Margin="110,75,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="201" Foreground="#FF13FF00"/>
         <Button x:Name="Btn_SetPort" Content="SET" Margin="317,38,0,0" VerticalAlignment="Top" Width="77" Click="Btn_SetPort_Click"/>
         <Button x:Name="Btn_AddIP" Content="ADD" Margin="317,75,0,0" VerticalAlignment="Top" Width="77" Click="Btn_AddIP_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="25,45,0,0" TextWrapping="Wrap" Text="Port No." VerticalAlignment="Top" Width="61"/>
         <TextBlock HorizontalAlignment="Left" Margin="25,82,0,0" TextWrapping="Wrap" Text="IP Address" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="Txt_StartRangeIP" HorizontalAlignment="Left" Margin="666,38,0,0" TextWrapping="Wrap" Text="192.168.0.1" VerticalAlignment="Top" Width="201"/>
-        <TextBox x:Name="Txt_EndRangeIP" HorizontalAlignment="Left" Margin="666,75,0,0" TextWrapping="Wrap" Text="192.168.1.255" VerticalAlignment="Top" Width="201"/>
+        <TextBox x:Name="Txt_StartRangeIP" HorizontalAlignment="Left" Margin="666,38,0,0" TextWrapping="Wrap" Text="192.168.0.1" VerticalAlignment="Top" Width="201" Foreground="#FF13FF00"/>
+        <TextBox x:Name="Txt_EndRangeIP" HorizontalAlignment="Left" Margin="666,75,0,0" TextWrapping="Wrap" Text="192.168.1.255" VerticalAlignment="Top" Width="201" Foreground="#FF13FF00"/>
         <TextBlock HorizontalAlignment="Left" Margin="666,14,0,0" TextWrapping="Wrap" Text="IP Address Range" VerticalAlignment="Top" Width="201" TextAlignment="Center"/>
         <Button x:Name="Btn_AddRange" Content="ADD RANGE" Margin="666,112,0,0" VerticalAlignment="Top" Width="200" Click="Btn_AddRange_Click"/>
         <Button x:Name="Btn_Send" Content="SEND" Margin="25,115,0,0" VerticalAlignment="Top" Height="66" Width="211" Click="Btn_Send_Click"/>
         <Button x:Name="Btn_Receive" Content="RECEIVE" Margin="446,112,0,0" VerticalAlignment="Top" Height="69" Width="210" Click="Btn_Receive_Click"/>
         <Button x:Name="Btn_DeleteIP" Content="DELETE IP" Margin="666,149,0,0" VerticalAlignment="Top" Width="200" Click="Btn_DeleteIP_Click"/>
-        <TextBox x:Name="Txt_SendMessage" HorizontalAlignment="Left" Margin="25,186,0,0" TextWrapping="Wrap" Text="Message to send" VerticalAlignment="Top" Width="415" Height="285" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
-        <TextBox x:Name="txt_ReceivedMessage" HorizontalAlignment="Left" Margin="445,186,0,0" TextWrapping="Wrap" Text="Received message" VerticalAlignment="Top" Width="422" Height="285" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
-        <TextBox x:Name="Txt_Logs" HorizontalAlignment="Left" Margin="25,476,0,0" TextWrapping="Wrap" Text="Logs" VerticalAlignment="Top" Width="842" Height="125" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <TextBox x:Name="Txt_SendMessage" HorizontalAlignment="Left" Margin="25,186,0,0" TextWrapping="Wrap" Text="Message to send" VerticalAlignment="Top" Width="415" Height="285" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FFFFA400"/>
+        <TextBox x:Name="txt_ReceivedMessage" HorizontalAlignment="Left" Margin="445,186,0,0" TextWrapping="Wrap" Text="Received message" VerticalAlignment="Top" Width="422" Height="285" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FFFFA400"/>
+        <TextBox x:Name="Txt_Logs" HorizontalAlignment="Left" Margin="25,476,0,0" TextWrapping="Wrap" Text="Logs" VerticalAlignment="Top" Width="842" Height="125" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FF13FF00" FocusVisualPrimaryBrush="#FF13FF00" Background="Black" BorderBrush="#FF13FF00" FocusVisualSecondaryBrush="#FF13FF00" SelectionHighlightColorWhenNotFocused="#FFE2241A" IsColorFontEnabled="False"/>
         <TextBlock HorizontalAlignment="Left" Margin="629,44,0,0" TextWrapping="Wrap" Text="From" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="629,82,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="921,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" Height="22"><Run Text="IP Addresses List"/><LineBreak/><Run/></TextBlock>
-        <ListBox x:Name="List_IPAddresses" Margin="872,38,22,27" SelectionMode="Multiple"/>
+        <ListBox x:Name="List_IPAddresses" Margin="872,38,22,27" SelectionMode="Multiple" Foreground="#FFFFBB00"/>
 
     </Grid>
 </Page>

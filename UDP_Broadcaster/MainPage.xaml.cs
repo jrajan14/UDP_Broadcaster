@@ -15,6 +15,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Text;
+using Windows.Media.Protection.PlayReady;
+using System.Threading.Tasks;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -188,8 +191,23 @@ namespace UDP_Broadcaster
             }
         }
 
+        // MESSAGE RECEIVE
         private void Btn_Receive_Click(object sender, RoutedEventArgs e)
         {
+            Task.Run(async () =>
+            {
+                using (var udpClient = new UdpClient(PortNo))
+                {
+                    string loggingEvent = "";
+                    while (true)
+                    {
+                        //IPEndPoint object will allow us to read datagrams sent from any source.
+                        var receivedResults = await udpClient.ReceiveAsync();
+                        loggingEvent += Encoding.ASCII.GetString(receivedResults.Buffer);
+                        txt_ReceivedMessage.Text = receivedResults.ToString();
+                    }
+                }
+            });
 
         }
 
