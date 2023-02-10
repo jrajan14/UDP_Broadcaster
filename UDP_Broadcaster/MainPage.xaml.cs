@@ -193,7 +193,7 @@ namespace UDP_Broadcaster
 
         }
 
-        //CUSTOM LOG FUNCTION
+        //CUSTOM LOG FUNCTION TO DISPLAY LOGS.
         void Display_Logs(string log_message)
         {
             Txt_Logs.Text += "\n" + log_message;
