@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Sockets;
+using System.Net;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -163,12 +165,38 @@ namespace UDP_Broadcaster
 
             return 1;
         }
+                
+        private void Btn_Send_Click(object sender, RoutedEventArgs e)
+        {
+            if(Txt_SendMessage.Text == "")
+            {
+                Display_Logs("ERROR: Message Empty \nWrite a message to send");
+            }
+            else
+            {
+                foreach (string IPtoBroadcast in List_IPAddresses.Items)
+                {
+                    string command = Txt_SendMessage.Text;
+                    byte[] PacketCommand = System.Text.ASCIIEncoding.ASCII.GetBytes(command);
+                    int portToSend = PortNo;
+
+                    IPEndPoint epCommand = new IPEndPoint(IPAddress.Parse(IPtoBroadcast), portToSend);
+                    Socket BroadcastSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+                    BroadcastSocket.SendTo(PacketCommand, epCommand);
+                }
+
+            }
+        }
+
+        private void Btn_Receive_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
 
         //CUSTOM LOG FUNCTION
         void Display_Logs(string log_message)
         {
             Txt_Logs.Text += "\n" + log_message;
         }
-
     }
 }

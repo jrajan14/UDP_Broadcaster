@@ -19,8 +19,8 @@
         <TextBox x:Name="Txt_EndRangeIP" HorizontalAlignment="Left" Margin="666,75,0,0" TextWrapping="Wrap" Text="192.168.1.255" VerticalAlignment="Top" Width="201"/>
         <TextBlock HorizontalAlignment="Left" Margin="666,14,0,0" TextWrapping="Wrap" Text="IP Address Range" VerticalAlignment="Top" Width="201" TextAlignment="Center"/>
         <Button x:Name="Btn_AddRange" Content="ADD RANGE" Margin="666,112,0,0" VerticalAlignment="Top" Width="200" Click="Btn_AddRange_Click"/>
-        <Button x:Name="Btn_Send" Content="SEND" Margin="25,115,0,0" VerticalAlignment="Top" Height="66" Width="211"/>
-        <Button x:Name="Btn_Receive" Content="RECEIVE" Margin="446,112,0,0" VerticalAlignment="Top" Height="69" Width="210"/>
+        <Button x:Name="Btn_Send" Content="SEND" Margin="25,115,0,0" VerticalAlignment="Top" Height="66" Width="211" Click="Btn_Send_Click"/>
+        <Button x:Name="Btn_Receive" Content="RECEIVE" Margin="446,112,0,0" VerticalAlignment="Top" Height="69" Width="210" Click="Btn_Receive_Click"/>
         <Button x:Name="Btn_DeleteIP" Content="DELETE IP" Margin="666,149,0,0" VerticalAlignment="Top" Width="200" Click="Btn_DeleteIP_Click"/>
         <TextBox x:Name="Txt_SendMessage" HorizontalAlignment="Left" Margin="25,186,0,0" TextWrapping="Wrap" Text="Message to send" VerticalAlignment="Top" Width="415" Height="285" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
         <TextBox x:Name="txt_ReceivedMessage" HorizontalAlignment="Left" Margin="445,186,0,0" TextWrapping="Wrap" Text="Received message" VerticalAlignment="Top" Width="422" Height="285" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
