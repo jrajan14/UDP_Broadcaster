@@ -27,6 +27,7 @@
       <RootProperty Name="FocusVisualSecondaryBrush" />
       <RootProperty Name="SelectionHighlightColorWhenNotFocused" />
       <RootProperty Name="IsColorFontEnabled" />
+      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -46,6 +47,9 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Inlines" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootMethod Name="GetVerticalScrollBarVisibility" />

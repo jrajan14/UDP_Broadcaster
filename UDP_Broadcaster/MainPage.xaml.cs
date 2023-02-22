@@ -23,12 +23,10 @@ using System.Threading.Tasks;
 
 namespace UDP_Broadcaster
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
         int PortNo = 50000;     //Default Port Number
+        int IP_count = 0;
         public MainPage()
         {
             this.InitializeComponent();
@@ -65,17 +63,8 @@ namespace UDP_Broadcaster
                 else
                 {
                     List_IPAddresses.Items.Add(Txt_AddIP.Text);
-                    /*//FOR SINGLE IP VALIDATION
-                     
-                    if (List_IPAddresses.Items.Contains(Txt_AddIP.Text))
-                    {
-                        Display_Logs("IP address already in list");
-                    }
-                    else
-                    {
-                        List_IPAddresses.Items.Add(Txt_AddIP.Text);
-
-                    }*/
+                    IP_count = List_IPAddresses.Items.Count;
+                    Txt_IP_Count.Text = IP_count.ToString();
                 }
             }
         }
@@ -86,7 +75,8 @@ namespace UDP_Broadcaster
                 Display_Logs(List_IPAddresses.SelectedItem + " Deleted");
                 //List_IPAddresses.Items.Remove(List_IPAddresses.SelectedItem);
                 List_IPAddresses.Items.RemoveAt(List_IPAddresses.Items.IndexOf(List_IPAddresses.SelectedItem));
-                
+                IP_count = List_IPAddresses.Items.Count;
+                Txt_IP_Count.Text = IP_count.ToString();
             }
 
         }
@@ -121,6 +111,8 @@ namespace UDP_Broadcaster
                         {
                             IPtoAdd = i.ToString() + "." + j.ToString() + "." + k.ToString() + "." +l.ToString();
                             List_IPAddresses.Items.Add(IPtoAdd);
+                            IP_count = List_IPAddresses.Items.Count;
+                            Txt_IP_Count.Text = IP_count.ToString();
                         }
                     }
                 }
@@ -169,7 +161,7 @@ namespace UDP_Broadcaster
             return 1;
         }
                 
-        private void Btn_Send_Click(object sender, RoutedEventArgs e)
+        private async void Btn_Send_Click(object sender, RoutedEventArgs e)
         {
             if(Txt_SendMessage.Text == "")
             {
@@ -186,35 +178,17 @@ namespace UDP_Broadcaster
                     IPEndPoint epCommand = new IPEndPoint(IPAddress.Parse(IPtoBroadcast), portToSend);
                     Socket BroadcastSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                     BroadcastSocket.SendTo(PacketCommand, epCommand);
+                    Display_Logs("Message sent to : " + IPtoBroadcast);
+                    await Task.Delay(1);
                 }
-
             }
-        }
-
-        // MESSAGE RECEIVE
-        private void Btn_Receive_Click(object sender, RoutedEventArgs e)
-        {
-            Task.Run(async () =>
-            {
-                using (var udpClient = new UdpClient(PortNo))
-                {
-                    string loggingEvent = "";
-                    while (true)
-                    {
-                        //IPEndPoint object will allow us to read datagrams sent from any source.
-                        var receivedResults = await udpClient.ReceiveAsync();
-                        loggingEvent += Encoding.ASCII.GetString(receivedResults.Buffer);
-                        txt_ReceivedMessage.Text = receivedResults.ToString();
-                    }
-                }
-            });
-
         }
 
         //CUSTOM LOG FUNCTION TO DISPLAY LOGS.
         void Display_Logs(string log_message)
         {
-            Txt_Logs.Text += "\n" + log_message;
+            Txt_Logs.Text = log_message + "\n" +Txt_Logs.Text;
         }
+
     }
 }

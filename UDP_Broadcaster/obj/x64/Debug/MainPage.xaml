@@ -19,16 +19,16 @@
         <TextBox x:ConnectionId='7' x:Name="Txt_EndRangeIP" HorizontalAlignment="Left" Margin="666,75,0,0" TextWrapping="Wrap" Text="192.168.1.255" VerticalAlignment="Top" Width="201" Foreground="#FF13FF00"/>
         <TextBlock HorizontalAlignment="Left" Margin="666,14,0,0" TextWrapping="Wrap" Text="IP Address Range" VerticalAlignment="Top" Width="201" TextAlignment="Center"/>
         <Button x:ConnectionId='8' x:Name="Btn_AddRange" Content="ADD RANGE" Margin="666,112,0,0" VerticalAlignment="Top" Width="200"                           />
-        <Button x:ConnectionId='9' x:Name="Btn_Send" Content="SEND" Margin="25,115,0,0" VerticalAlignment="Top" Height="66" Width="211"                       />
-        <Button x:ConnectionId='10' x:Name="Btn_Receive" Content="RECEIVE" Margin="446,112,0,0" VerticalAlignment="Top" Height="69" Width="210"                          />
-        <Button x:ConnectionId='11' x:Name="Btn_DeleteIP" Content="DELETE IP" Margin="666,149,0,0" VerticalAlignment="Top" Width="200"                           />
-        <TextBox x:ConnectionId='12' x:Name="Txt_SendMessage" HorizontalAlignment="Left" Margin="25,186,0,0" TextWrapping="Wrap" Text="Message to send" VerticalAlignment="Top" Width="415" Height="285" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FFFFA400"/>
-        <TextBox x:ConnectionId='13' x:Name="txt_ReceivedMessage" HorizontalAlignment="Left" Margin="445,186,0,0" TextWrapping="Wrap" Text="Received message" VerticalAlignment="Top" Width="422" Height="285" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FFFFA400"/>
-        <TextBox x:ConnectionId='14' x:Name="Txt_Logs" HorizontalAlignment="Left" Margin="25,476,0,0" TextWrapping="Wrap" Text="Logs" VerticalAlignment="Top" Width="842" Height="125" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FF13FF00" FocusVisualPrimaryBrush="#FF13FF00" Background="Black" BorderBrush="#FF13FF00" FocusVisualSecondaryBrush="#FF13FF00" SelectionHighlightColorWhenNotFocused="#FFE2241A" IsColorFontEnabled="False"/>
+        <Button x:ConnectionId='9' x:Name="Btn_Send" Content="SEND" Margin="25,115,0,0" VerticalAlignment="Top" Height="66" Width="186"                       />
+        <Button x:ConnectionId='10' x:Name="Btn_DeleteIP" Content="DELETE IP" Margin="666,149,0,0" VerticalAlignment="Top" Width="200"                           />
+        <TextBox x:ConnectionId='11' x:Name="Txt_SendMessage" HorizontalAlignment="Left" Margin="25,186,0,0" TextWrapping="Wrap" Text="Message to send" VerticalAlignment="Top" Width="636" Height="415" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FFFFA400"/>
+        <TextBox x:ConnectionId='12' x:Name="Txt_Logs" HorizontalAlignment="Left" Margin="666,186,0,0" TextWrapping="Wrap" Text="Logs" VerticalAlignment="Top" Width="201" Height="415" ScrollViewer.VerticalScrollBarVisibility="Auto" Foreground="#FF13FF00" FocusVisualPrimaryBrush="#FF13FF00" Background="Black" BorderBrush="#FF13FF00" FocusVisualSecondaryBrush="#FF13FF00" SelectionHighlightColorWhenNotFocused="#FFE2241A" IsColorFontEnabled="False" FontSize="10"/>
         <TextBlock HorizontalAlignment="Left" Margin="629,44,0,0" TextWrapping="Wrap" Text="From" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="629,82,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="921,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" Height="22"><Run Text="IP Addresses List"/><LineBreak/><Run/></TextBlock>
-        <ListBox x:ConnectionId='15' x:Name="List_IPAddresses" Margin="872,38,22,27" SelectionMode="Multiple" Foreground="#FFFFBB00"/>
+        <ListBox x:ConnectionId='13' x:Name="List_IPAddresses" Margin="872,38,22,27" SelectionMode="Multiple" Foreground="#FFFFBB00"/>
+        <TextBlock x:ConnectionId='14' x:Name="Txt_IP_Count" HorizontalAlignment="Left" Margin="569,135,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Height="33" FontSize="20" Width="58" FontWeight="Bold" TextAlignment="Center" Foreground="#FFFFC700"/>
+        <TextBlock HorizontalAlignment="Left" Margin="476,141,0,0" TextWrapping="Wrap" Text="IP Count in List" VerticalAlignment="Top" Height="21" Foreground="#FF00FF1B"/>
 
     </Grid>
 </Page>
