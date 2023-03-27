@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>DB508388C3829F7451A3E53D3EE72CB417150ECF0E646106C1D69091DF7E7394</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>4F5483EED708071CB109AC1A6DE7CACD21AA3301D6D731B1DF6D43C1FAC778D2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>47bb6766-8d75-420c-bdfc-6b4b01e7327a_1.0.0.0_x64__qbdn314zs8aaj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>47bb6766-8d75-420c-bdfc-6b4b01e7327a_qbdn314zs8aaj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>47bb6766-8d75-420c-bdfc-6b4b01e7327a</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T16:02:12.492</Modified>
+      <Modified>2023-03-27T20:39:29.107</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\UDP_Broadcaster.exe">
       <PackagePath>entrypoint\UDP_Broadcaster.exe</PackagePath>
-      <Modified>2023-02-22T16:02:12.093</Modified>
+      <Modified>2023-03-27T20:39:28.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,11 +90,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-02-22T16:02:12.050</Modified>
+      <Modified>2023-03-27T20:39:28.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-02-22T16:02:12.050</Modified>
+      <Modified>2023-03-27T20:39:28.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +102,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-10T20:04:03.998</Modified>
+      <Modified>2023-03-27T20:39:28.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\Core\UDP_Broadcaster.exe">
       <PackagePath>UDP_Broadcaster.exe</PackagePath>
-      <Modified>2023-02-22T16:02:12.486</Modified>
+      <Modified>2023-03-27T20:39:29.100</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
