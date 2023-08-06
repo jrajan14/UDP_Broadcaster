@@ -1,3 +1,4 @@
-# UDP_Broadcaster
+# UDP Broadcaster
 
-Simple UDP Broadcasting tool for Windows Universal (UWP)
+Simple UDP Broadcasting tool for Windows.
+Build as Universal Windows App
