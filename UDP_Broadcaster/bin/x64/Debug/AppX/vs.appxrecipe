@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>BLACKBOX</Machine>
-    <WindowsUser>Rajan</WindowsUser>
+    <Machine>DELL-NEW</Machine>
+    <WindowsUser>jraja</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>47bb6766-8d75-420c-bdfc-6b4b01e7327a</PackageIdentityName>
     <PackageIdentityPublisher>CN=Rajan</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4F5483EED708071CB109AC1A6DE7CACD21AA3301D6D731B1DF6D43C1FAC778D2</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>66D1695255C6D52855C60BF59399C27E6F48894597C2388D78786E1F6559DCD0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>47bb6766-8d75-420c-bdfc-6b4b01e7327a_1.0.0.0_x64__qbdn314zs8aaj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>47bb6766-8d75-420c-bdfc-6b4b01e7327a_qbdn314zs8aaj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>47bb6766-8d75-420c-bdfc-6b4b01e7327a</RegisteredPackageID>
@@ -27,86 +27,86 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-27T20:39:29.107</Modified>
+      <Modified>2023-08-13T18:33:12.001</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\UDP_Broadcaster.exe">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\UDP_Broadcaster.exe">
       <PackagePath>entrypoint\UDP_Broadcaster.exe</PackagePath>
-      <Modified>2023-03-27T20:39:28.223</Modified>
+      <Modified>2023-08-13T18:33:10.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2022-06-10T22:23:28.000</Modified>
+      <Modified>2022-06-10T16:53:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2022-10-19T14:28:50.000</Modified>
+      <Modified>2023-05-11T18:24:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2023-02-08T19:05:19.993</Modified>
+      <Modified>2023-08-02T08:20:58.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-01-22T19:39:20.582</Modified>
+      <Modified>2023-08-02T08:20:58.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-22T19:39:20.583</Modified>
+      <Modified>2023-08-02T08:20:58.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-22T19:39:20.583</Modified>
+      <Modified>2023-08-02T08:20:58.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-22T19:39:20.584</Modified>
+      <Modified>2023-08-02T08:20:58.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-22T19:39:20.584</Modified>
+      <Modified>2023-08-02T08:20:58.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-22T19:39:20.584</Modified>
+      <Modified>2023-08-02T08:20:58.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-22T19:39:20.585</Modified>
+      <Modified>2023-08-02T08:20:58.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\UDP_Broadcaster.xr.xml">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\UDP_Broadcaster.xr.xml">
       <PackagePath>UDP_Broadcaster.xr.xml</PackagePath>
-      <Modified>2023-02-22T16:02:12.038</Modified>
+      <Modified>2023-08-02T08:20:58.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-27T20:39:28.178</Modified>
+      <Modified>2023-08-13T18:33:10.110</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-27T20:39:28.179</Modified>
+      <Modified>2023-08-13T18:33:10.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2022-10-19T18:05:02.000</Modified>
+      <Modified>2023-05-11T21:08:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-27T20:39:28.447</Modified>
+      <Modified>2023-08-13T18:33:10.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\Core\UDP_Broadcaster.exe">
+    <AppxPackagedFile Include="C:\Users\jraja\Documents\GitHub\UDP_Broadcaster\UDP_Broadcaster\bin\x64\Debug\Core\UDP_Broadcaster.exe">
       <PackagePath>UDP_Broadcaster.exe</PackagePath>
-      <Modified>2023-03-27T20:39:29.100</Modified>
+      <Modified>2023-08-13T18:33:11.969</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

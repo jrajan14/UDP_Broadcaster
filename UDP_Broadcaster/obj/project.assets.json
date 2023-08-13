@@ -10255,18 +10255,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rajan\\.nuget\\packages\\": {},
+    "C:\\Users\\jraja\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\UDP_Broadcaster\\UDP_Broadcaster\\UDP_Broadcaster.csproj",
+      "projectUniqueName": "C:\\Users\\jraja\\Documents\\GitHub\\UDP_Broadcaster\\UDP_Broadcaster\\UDP_Broadcaster.csproj",
       "projectName": "UDP_Broadcaster",
-      "projectPath": "E:\\GitHub\\UDP_Broadcaster\\UDP_Broadcaster\\UDP_Broadcaster.csproj",
-      "packagesPath": "C:\\Users\\Rajan\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\UDP_Broadcaster\\UDP_Broadcaster\\obj\\",
+      "projectPath": "C:\\Users\\jraja\\Documents\\GitHub\\UDP_Broadcaster\\UDP_Broadcaster\\UDP_Broadcaster.csproj",
+      "packagesPath": "C:\\Users\\jraja\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jraja\\Documents\\GitHub\\UDP_Broadcaster\\UDP_Broadcaster\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10274,7 +10274,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rajan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
