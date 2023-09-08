@@ -10,7 +10,7 @@ Send messages to multiple recipients on a UDP network with minimal overhead, mak
 ### User-Friendly Interface: 
 A simple and intuitive user interface allows users to configure broadcasting parameters, message content, and target IP addresses effortlessly.
 
-### ustomizable Settings: 
+### Customizable Settings: 
 Tailor broadcasting settings to your specific use case, including customizable packet size, broadcasting interval, and message format.
 
 ### Real-time Monitoring: 
