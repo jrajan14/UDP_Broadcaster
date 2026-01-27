@@ -13,7 +13,7 @@ A simple and intuitive user interface allows users to configure broadcasting par
 ### Customizable Settings : 
 Tailor broadcasting settings to your specific use case, including customizable packet size, broadcasting interval, and message format.
 
-### Real-time Monitoring: 
+### Real-time Monitoring:  
 Gain insights into the broadcasting process through real-time logs and status indicators, ensuring smooth and reliable communication.
 
 ### Open Source : 
