@@ -7,7 +7,7 @@ The UDP Broadcaster Application is a lightweight and efficient tool designed for
 ### Efficient Broadcasting: 
 Send messages to multiple recipients on a UDP network with minimal overhead, making it suitable for low-latency communication scenarios.
 
-### User-Friendly Interface : 
+### User-Friendly Interface :  
 A simple and intuitive user interface allows users to configure broadcasting parameters, message content, and target IP addresses effortlessly.
 
 ### Customizable Settings : 
