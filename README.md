@@ -16,7 +16,7 @@ Tailor broadcasting settings to your specific use case, including customizable p
 ### Real-time Monitoring:  
 Gain insights into the broadcasting process through real-time logs and status indicators, ensuring smooth and reliable communication.
 
-### Open Source : 
+### Open Source :  
 This application is open source, allowing you to explore its inner workings, contribute improvements, and adapt it for your own projects.
 
 Whether you're a developer, network enthusiast, or hobbyist, the UDP Broadcaster Application empowers you to harness the power of UDP broadcasting for seamless and efficient data sharing across networks.
