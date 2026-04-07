@@ -26,7 +26,7 @@ namespace UDP_Broadcaster
     public sealed partial class MainPage : Page
     {
         int PortNo = 50000;     //Default Port Number
-        int IP_count = 0;
+        int IP_count = 0;       // Total number of IPs on list
         public MainPage()
         {
             this.InitializeComponent();
